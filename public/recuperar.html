@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Recuperar Contraseña</title>
+    
+</head>
+<script src="solicitudes.js"></script>
+<body>
+    <h1>Recuperar Contraseña</h1>
+    <form action="/recuperarContrasena" method="get">
+        <label for="tipo_documento">Tipo de Documento:</label>
+        <input type="text" id="tipo_documento" name="tipo_documento" required><br><br>
+
+        <label for="numero_documento">Número de Documento:</label>
+        <input type="text" id="numero_documento" name="numero_documento" required><br><br>
+
+        <label for="nueva_contraseña">Nueva Contraseña:</label>
+        <input type="password" id="nueva_contraseña" name="contraseña" required><br><br>
+
+        <input type="submit" value="Recuperar Contraseña">
+    </form>
+</body>
+</html>

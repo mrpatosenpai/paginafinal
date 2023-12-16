@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="mod1.css">
+  <link rel="website icon" type="icon" href="manzana morada.png">
+  <title>Visitas</title>
+</head>
+
+<body>
+  <div class="Logo" id="logo">
+    <a href="inicio.html"><img src="Logo.png" alt="logo" width="100%"></a>
+  </div>
+  <h1>Agendar Visita</h1>
+  <form action="/insertarVisita" method="post">
+    <label for="manzana">Manzana a Visitar:<label>
+        <select id="manzana" name="manzana_visita" required>
+          <option value="Manzana de Fontibon">Manzana Fontibon</option>
+          <option value="Manzana de Suba">Manzana de Suba</option>
+          <option value="Manzana de Chapinero">Manzana de Chapinero</option>
+        </select><br><br>
+        <label for="fecha">Fecha de Visita:</label>
+        <input type="date" id="fecha" name="fecha_visita" required><br><br>
+
+        <label for="hora">Hora de Visita:</label>
+        <input type="time" id="hora" name="fecha_hora_visita" required><br><br>
+
+        <label for="servicio">Servicio a Solicitar:</label>
+        <select id="servicio" name="servicio_solicitado">
+          <option value="Educativo">Educativo</option>
+          <option value="Medico">Medico</option>
+          <option value="Recreacion">Recreacion</option>
+          <option value="Lavanderia">Lavanderia</option>
+        </select><br><br>
+        <input type="submit" value="Agendar Visita">
+  </form>
+</body>
+
+</html>

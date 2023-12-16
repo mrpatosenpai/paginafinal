@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="stylelogin.css">
+    <script src="solicitudes.js"></script>
+</head>
+<body>
+    
+    <div center class="caja">
+        <h2>Iniciar Sesión</h2>
+        <form action="/verificar" method="post">
+            <label for="tipo_documento">Tipo de Documento:</label>
+            <select id="tipo_documento" name="tipo_documento" required>
+                <option value="Cèdula">Cèdula</option>
+                <option value="Pasaporte">Pasaporte</option>
+            </select><br><br>
+    
+            <label for="numero_documento">Número de Documento:</label>
+            <input type="text" id="numero_documento" name="numero_documento" required><br><br>
+    
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contraseña" required><br><br>
+            <a href="recuperar.html">Olvide mi contraseña</a>
+            <a href="registromujeres.html">¿No estas registrado?</a>
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+    </div>
+ 
+</body>
+</html>

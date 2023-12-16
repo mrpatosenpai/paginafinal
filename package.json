@@ -1,0 +1,12 @@
+{
+  "name": "pagina-final-con-conexion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conexion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
